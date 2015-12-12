@@ -1,0 +1,3 @@
+# Ignorar el contenido de las carpetas log y cache
+CYPLUS-SYSTEM/
+OSBL-SYSTEM/bin/
