@@ -1,0 +1,15 @@
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\bin\Debug\OSBL-SYSTEM.exe
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\bin\Debug\OSBL-SYSTEM.pdb
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\bin\Debug\OSBL-SYSTEM.xml
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\bin\Debug\IrisSkin2.dll
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL_SYSTEM.BASICDATA.resources
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL_SYSTEM.Form1.resources
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL_SYSTEM.MENUPRINCIPAL.resources
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL_SYSTEM.Resources.resources
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL-SYSTEM.exe
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL-SYSTEM.xml
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL-SYSTEM.pdb
+C:\Users\Adal\documents\visual studio 2010\Projects\OSBL-SYSTEM\OSBL-SYSTEM\obj\x86\Debug\OSBL_SYSTEM.ESTADOSPOOL.resources

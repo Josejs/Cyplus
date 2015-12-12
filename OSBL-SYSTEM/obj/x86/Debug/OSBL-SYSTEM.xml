@@ -1,0 +1,1272 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OSBL-SYSTEM
+</name>
+</assembly>
+<members>
+<member name="T:OSBL_SYSTEM.CYPLUSDataSet.ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SALIDA_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.TBL_ISODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.USUARIOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.BUSCA_NUM_ISODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.BUSCA_NUM_SPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.LOGIN_SIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VALIDA_ISODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VALIDAR_SPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VERIFICARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECSPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.seleccionSPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_ALMACEN_FDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_SALIDA_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_SALIDA_ALMACEN1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_ESPEFDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SOPORTERIADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SEL_COM_NUMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.JUNTASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELET_REPORT_ESTADO_SPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.TBL_SPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECT_PRODUCCION_FECHADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PRODUCCION_DIARIADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_lineaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PINTURADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.MATERIAL_ISOMETRICO_OPCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.LIBERACION_PINTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SEL_LIBDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PCKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_PCK_CONDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.QRPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.RDQ_VDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELC_R_DDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_Query_isoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_Query_iso1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_QUERY_DAILY_SPOOL_CONDICIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.CLASESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_isoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_isooDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_spoolDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.w24DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_w24DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_PORTADA_SPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.QC15DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_pint_spoolDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SABANA_FINALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SABANA_ESPECIFICACIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ESTIMACION_GCGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ESTIMACIONESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.edo_spool_mts2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.EXISTENCIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_JUNTAS_CAMPODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_JUNTAS_CAMPO_periodoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.edo_spool_mts21DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.REPORTESTADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PACKING_LISTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.STATUS_ISODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.RFDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.P_MAYOR_2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.P_MENOR_2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.W24_MAYOR_DOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.W24_MENOR_DOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_CYP_INDICE_EMBARQUEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_SEL_ESTIMACIONES_GADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_PRODUCCION_CONSECUTIVODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.REPORT_PACKINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sp_produccion_campoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_REPORTE_PACKINGLIST_VALEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_REPORTE_PACKINGLIST_SPOOLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SALIDA_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.TBL_ISORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.USUARIOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.BUSCA_NUM_ISORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.BUSCA_NUM_SPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.LOGIN_SIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VALIDA_ISORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VALIDAR_SPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VERIFICARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECSPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.seleccionSPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_ALMACEN_FRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_SALIDA_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_SALIDA_ALMACEN1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_ESPEFRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SOPORTERIARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SEL_COM_NUMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.JUNTASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELET_REPORT_ESTADO_SPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.TBL_SPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECT_PRODUCCION_FECHARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PRODUCCION_DIARIARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_lineaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PINTURARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.MATERIAL_ISOMETRICO_OPCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.LIBERACION_PINTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SEL_LIBRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PCKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_PCK_CONDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.QRPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.RDQ_VRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELC_R_DRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_Query_isoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_Query_iso1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_QUERY_DAILY_SPOOL_CONDICIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.CLASESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_isoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_isooRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_spoolRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.w24Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_w24Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_PORTADA_SPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.QC15Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_pint_spoolRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SABANA_FINALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SABANA_ESPECIFICACIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ESTIMACION_GCGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ESTIMACIONESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.edo_spool_mts2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.EXISTENCIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_JUNTAS_CAMPORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_JUNTAS_CAMPO_periodoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.edo_spool_mts21Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.REPORTESTADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PACKING_LISTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.STATUS_ISORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.RFRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.P_MAYOR_2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.P_MENOR_2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.W24_MAYOR_DOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.W24_MENOR_DOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_CYP_INDICE_EMBARQUERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_SEL_ESTIMACIONES_GADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_PRODUCCION_CONSECUTIVORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.REPORT_PACKINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sp_produccion_campoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_REPORTE_PACKINGLIST_VALERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_REPORTE_PACKINGLIST_SPOOLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SALIDA_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.TBL_ISORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.USUARIOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.BUSCA_NUM_ISORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.BUSCA_NUM_SPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.LOGIN_SIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VALIDA_ISORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VALIDAR_SPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.VERIFICARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECSPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.seleccionSPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_ALMACEN_FRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_SALIDA_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_SALIDA_ALMACEN1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_ESPEFRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SOPORTERIARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SEL_COM_NUMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.JUNTASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELET_REPORT_ESTADO_SPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.TBL_SPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECT_PRODUCCION_FECHARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PRODUCCION_DIARIARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_lineaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PINTURARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.MATERIAL_ISOMETRICO_OPCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.LIBERACION_PINTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SEL_LIBRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PCKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_PCK_CONDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.QRPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.RDQ_VRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELC_R_DRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_Query_isoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_Query_iso1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELECCION_QUERY_DAILY_SPOOL_CONDICIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.CLASESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_isoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_isooRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.Traza_dos_por_spoolRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.w24RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_w24RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SELEC_PORTADA_SPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.QC15RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sel_pint_spoolRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SABANA_FINALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SABANA_ESPECIFICACIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ESTIMACION_GCGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.ESTIMACIONESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.edo_spool_mts2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.EXISTENCIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_JUNTAS_CAMPORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.selec_proc_linea_JUNTAS_CAMPO_periodoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.edo_spool_mts21RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.REPORTESTADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.PACKING_LISTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.STATUS_ISORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.RFRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.P_MAYOR_2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.P_MENOR_2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.W24_MAYOR_DOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.W24_MENOR_DOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_CYP_INDICE_EMBARQUERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_SEL_ESTIMACIONES_GADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_PRODUCCION_CONSECUTIVORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.REPORT_PACKINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.sp_produccion_campoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_REPORTE_PACKINGLIST_VALERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet.SP_REPORTE_PACKINGLIST_SPOOLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.ALMACENTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SALIDA_ALMACENTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TBL_ISOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.USUARIOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.BUSCA_NUM_ISOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.BUSCA_NUM_SPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.LOGIN_SITableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.VALIDA_ISOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.VALIDAR_SPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.VERIFICARTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELECSPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.seleccionSPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELECCION_ALMACEN_FTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELECCION_SALIDA_ALMACENTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELECCION_SALIDA_ALMACEN1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELEC_ESPEFTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SOPORTERIATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SEL_COM_NUMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.JUNTASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELET_REPORT_ESTADO_SPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TBL_SPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELECT_PRODUCCION_FECHATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.PRODUCCION_DIARIATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.selec_proc_lineaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.PINTURATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.MATERIAL_ISOMETRICO_OPCTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.LIBERACION_PINTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SEL_LIBTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.PCKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELEC_PCK_CONDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.QRPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.RDQ_VTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELC_R_DTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.sel_Query_isoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.sel_Query_iso1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELECCION_QUERY_DAILY_SPOOL_CONDICIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.CLASESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.selec_proc_linea2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.Traza_dosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.Traza_dos_por_isoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.Traza_dos_por_isooTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.Traza_dos_por_spoolTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.w24TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.selec_proc_linea_w24TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SELEC_PORTADA_SPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.QC15TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.sel_pint_spoolTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SABANA_FINALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SABANA_ESPECIFICACIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.ESTIMACION_GCGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.ESTIMACIONESTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.edo_spool_mts2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.EXISTENCIASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.selec_proc_linea_JUNTAS_CAMPOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.selec_proc_linea_JUNTAS_CAMPO_periodoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.edo_spool_mts21TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.REPORTESTADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.PACKING_LISTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.STATUS_ISOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.RFTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.P_MAYOR_2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.P_MENOR_2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.W24_MAYOR_DOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.W24_MENOR_DOSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SP_CYP_INDICE_EMBARQUETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SP_SEL_ESTIMACIONES_GADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SP_PRODUCCION_CONSECUTIVOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.REPORT_PACKINGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.sp_produccion_campoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SP_REPORTE_PACKINGLIST_VALETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.SP_REPORTE_PACKINGLIST_SPOOLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(OSBL_SYSTEM.CYPLUSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(OSBL_SYSTEM.CYPLUSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(OSBL_SYSTEM.CYPLUSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.UpdateAll(OSBL_SYSTEM.CYPLUSDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:OSBL_SYSTEM.CYPLUSDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources._Error">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Bookshelf">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.descarga">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.descarga__1_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.descarga__2_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Excel_2013">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.image001">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.images">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.images__1_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.images__2_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.images87P8MKC9">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.ISOME">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Lupa_de_calidad">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Magnifying_Glass">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Newspaper">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Shut_Down_1_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.termotecnica_coindustrial_e1422461794791">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:OSBL_SYSTEM.My.Resources.Resources.Users">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:OSBL_SYSTEM.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

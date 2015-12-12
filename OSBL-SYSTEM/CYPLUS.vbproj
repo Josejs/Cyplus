@@ -1,0 +1,2216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3BE05BA-43C7-47A0-BD03-A93B389A6EC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OSBL_SYSTEM.My.MyApplication</StartupObject>
+    <RootNamespace>OSBL_SYSTEM</RootNamespace>
+    <AssemblyName>OSBL-SYSTEM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\10.130.233.11\Software\sistema\CYPLUS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>1</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\10.130.233.11\Software\sistema\CYPLUS\</InstallUrl>
+    <ProductName>CYPLUS-SYSTEM</ProductName>
+    <PublisherName>TERMOTECNICA COINDUSTRIAL S.A</PublisherName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>38</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OSBL-SYSTEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OSBL-SYSTEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>descarga.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0AF6B63E60683C13113E2FC7406271629DD38B08</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=10.9.0.1, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0" />
+    <Reference Include="DevComponents.TreeGX, Version=10.9.0.1, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="IrisSkin2">
+      <HintPath>E:\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BD\CYPLUSDataSet.vb">
+      <DependentUpon>CYPLUSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESTIMACIONES\capturaestimacion.Designer.vb">
+      <DependentUpon>capturaestimacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESTIMACIONES\capturaestimacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTIMACIONES\FRMESTIMACIONES.Designer.vb">
+      <DependentUpon>FRMESTIMACIONES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESTIMACIONES\FRMESTIMACIONES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTIMACIONES\FRMESTIMACIONES_CYP.Designer.vb">
+      <DependentUpon>FRMESTIMACIONES_CYP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESTIMACIONES\FRMESTIMACIONES_CYP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTIMACIONES\RPESTIMACION.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPESTIMACION.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="INDICE\CRVINDICE.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRVINDICE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="INDICE\FRMINDICE.Designer.vb">
+      <DependentUpon>FRMINDICE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INDICE\FRMINDICE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULES\importar.vb" />
+    <Compile Include="PACKINLIST-PINTURA\PINTURA_PACKINGLIST.Designer.vb">
+      <DependentUpon>PINTURA_PACKINGLIST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PACKINLIST-PINTURA\PINTURA_PACKINGLIST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTADA\FRMPORTADA.Designer.vb">
+      <DependentUpon>FRMPORTADA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTADA\FRMPORTADA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTADA\FRMREGISTROPORTADA.Designer.vb">
+      <DependentUpon>FRMREGISTROPORTADA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTADA\FRMREGISTROPORTADA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTADA\FRMREPORTEPORTADA.Designer.vb">
+      <DependentUpon>FRMREPORTEPORTADA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PORTADA\FRMREPORTEPORTADA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PORTADA\RPPORTADASPOOL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPPORTADASPOOL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PORTADA\RPPORTADASPOOL1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPPORTADASPOOL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QC15\QC15PACK.Designer.vb">
+      <DependentUpon>QC15PACK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QC15\QC15PACK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QC15\QC15REP.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QC15REP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\ENTRADAS-ALMACEN\RPALMACEN.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPALMACEN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\ENTRADAS-ALMACEN\RPENTRADAF.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPENTRADAF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXISTENCIAS-ALMACEN\FRMEXIXTENCIAS.Designer.vb">
+      <DependentUpon>FRMEXIXTENCIAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\EXISTENCIAS-ALMACEN\FRMEXIXTENCIAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\EXISTENCIAS-ALMACEN\RPEXISTENCIAS.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPEXISTENCIAS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\JUNTAS\RPJUNTAS.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPJUNTAS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\PORTADA-VALE\CRV_MATERIAL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRV_MATERIAL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\PORTADA-VALE\CRV_VALE_REPORTE.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRV_VALE_REPORTE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\PORTADA-VALE\CYPLUS-MATERIAL.Designer.vb">
+      <DependentUpon>CYPLUS-MATERIAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\PORTADA-VALE\CYPLUS-MATERIAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\PORTADA-VALE\CYPLUS-VALE.Designer.vb">
+      <DependentUpon>CYPLUS-VALE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\PORTADA-VALE\CYPLUS-VALE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\RPACKING.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPACKING.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\RPCONDICIONFINAL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPCONDICIONFINAL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\RPLIBCOND.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPLIBCOND.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PINTURA\RPPINTURA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPPINTURA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\estado_spool\EDO_SPOOL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EDO_SPOOL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\estado_spool\frmreporteEstado_spool.Designer.vb">
+      <DependentUpon>frmreporteEstado_spool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\estado_spool\frmreporteEstado_spool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\RPdatos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPdatos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\RPESTADOSPOOL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPESTADOSPOOL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\RPISOMESPECIF.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPISOMESPECIF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCION\RPTIPOSPOOL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPTIPOSPOOL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCTIONDAILY\CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCTIONDAILY\RPDIARIAFECHA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPDIARIAFECHA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\PRODUCCTIONDAILY\RPPRODUCCIONDIARIALINEA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPPRODUCCIONDIARIALINEA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\frmdailycondicion.Designer.vb">
+      <DependentUpon>frmdailycondicion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\frmdailycondicion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\query_por_iso.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>query_por_iso.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\RDQSELECCION.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RDQSELECCION.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\REPORTDAILYQUERY.Designer.vb">
+      <DependentUpon>REPORTDAILYQUERY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\REPORTDAILYQUERY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\REPORTPORISOMETRICO.Designer.vb">
+      <DependentUpon>REPORTPORISOMETRICO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\REPORTPORISOMETRICO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\REPORTDAILYQUERY\RPCONDICIONSPOOLDAILY.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPCONDICIONSPOOLDAILY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\SALIDAS-ALMACEN\RPSALIDAFECHA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPSALIDAFECHA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\SALIDAS-ALMACEN\RPSALIDASTOTAL.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPSALIDASTOTAL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\SOPORTERIA\RPCLASESOPORTE.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPCLASESOPORTE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\ENTRADAS-ALMACEN\FrmReporteEntradaMaterial.Designer.vb">
+      <DependentUpon>FrmReporteEntradaMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\ENTRADAS-ALMACEN\FrmReporteEntradaMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\ENTRADAS-ALMACEN\FRMREPORTEFECHAENTRADA.Designer.vb">
+      <DependentUpon>FRMREPORTEFECHAENTRADA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\ENTRADAS-ALMACEN\FRMREPORTEFECHAENTRADA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\JUNTAS\FRMREPORTJUNTAS.Designer.vb">
+      <DependentUpon>FRMREPORTJUNTAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\JUNTAS\FRMREPORTJUNTAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\produclineafecha.Designer.vb">
+      <DependentUpon>produclineafecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\produclineafecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\TODOSDIARIOS.Designer.vb">
+      <DependentUpon>TODOSDIARIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\TODOSDIARIOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\ISOMETRICS\FRMREPORTEESPECF.Designer.vb">
+      <DependentUpon>FRMREPORTEESPECF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\ISOMETRICS\FRMREPORTEESPECF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\SOPORTERIA\RPSOPORTE.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPSOPORTE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SOPORTERIA\SOPORTERIACLASE.Designer.vb">
+      <DependentUpon>SOPORTERIACLASE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SOPORTERIA\SOPORTERIACLASE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SOPORTERIA\SOPORTERIATODOS.Designer.vb">
+      <DependentUpon>SOPORTERIATODOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SOPORTERIA\SOPORTERIATODOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\FRMTIPOSPOOL.Designer.vb">
+      <DependentUpon>FRMTIPOSPOOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\FRMTIPOSPOOL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\query.Designer.vb">
+      <DependentUpon>query.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\query.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PINTURA\RPINTURA.Designer.vb">
+      <DependentUpon>RPINTURA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PINTURA\RPINTURA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\SALIDAS-ALMACEN\FRMREPORTESALIDAALMACEN.Designer.vb">
+      <DependentUpon>FRMREPORTESALIDAALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\SALIDAS-ALMACEN\FRMREPORTESALIDAALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\SALIDAS-ALMACEN\FRMSALIDASFECHAALMACEN.Designer.vb">
+      <DependentUpon>FRMSALIDASFECHAALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\SALIDAS-ALMACEN\FRMSALIDASFECHAALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\BACKUP.Designer.vb">
+      <DependentUpon>BACKUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\BACKUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\CRVRF.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRVRF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\FRMINICIOADMIN.Designer.vb">
+      <DependentUpon>FRMINICIOADMIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\FRMINICIOADMIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\PANEL_CONTROL.Designer.vb">
+      <DependentUpon>PANEL_CONTROL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\ADMINISTRATOR\PANEL_CONTROL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\CALIDADFR.Designer.vb">
+      <DependentUpon>CALIDADFR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\CALIDADFR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\FRMINICIOCALID.Designer.vb">
+      <DependentUpon>FRMINICIOCALID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\FRMINICIOCALID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\REGCALIDAD.Designer.vb">
+      <DependentUpon>REGCALIDAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\REGCALIDAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\FRMREPORTSABANA.Designer.vb">
+      <DependentUpon>FRMREPORTSABANA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\FRMREPORTSABANA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\FRMREPORTSABANAESPECIFICACION.Designer.vb">
+      <DependentUpon>FRMREPORTSABANAESPECIFICACION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\FRMREPORTSABANAESPECIFICACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\FRMSABANACAPTURA.Designer.vb">
+      <DependentUpon>FRMSABANACAPTURA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\FRMSABANACAPTURA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\RPSABANA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPSABANA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CALITY\SABANA\RPSABANAESPECIFICACION.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPSABANAESPECIFICACION.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CONSECUTIVO\FRM_CAMPO_CONSECUTIVO.Designer.vb">
+      <DependentUpon>FRM_CAMPO_CONSECUTIVO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\CONSECUTIVO\FRM_CAMPO_CONSECUTIVO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\CONSECUTIVO\RPCONSECUTIVO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RPCONSECUTIVO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\DAILYREPORTQUERY\DAILYREPORT.Designer.vb">
+      <DependentUpon>DAILYREPORT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\DAILYREPORTQUERY\DAILYREPORT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\DAILYREPORTQUERY\RegDaily.Designer.vb">
+      <DependentUpon>RegDaily.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\DAILYREPORTQUERY\RegDaily.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\DAILYREPORTQUERY\vistaConsulta.Designer.vb">
+      <DependentUpon>vistaConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\DAILYREPORTQUERY\vistaConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ESTADO_ISO\FrmEstado_Iso.Designer.vb">
+      <DependentUpon>FrmEstado_Iso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\ESTADO_ISO\FrmEstado_Iso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ESTADO_ISO\FRMSTATUSISO.Designer.vb">
+      <DependentUpon>FRMSTATUSISO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\ESTADO_ISO\FRMSTATUSISO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\ESTADO_ISO\STATUSISO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STATUSISO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\FRMRF.Designer.vb">
+      <DependentUpon>FRMRF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\FRMRF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\GENERALES\CLASES.Designer.vb">
+      <DependentUpon>CLASES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\GENERALES\CLASES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\GENERALES\DETALLES-SABANA.Designer.vb">
+      <DependentUpon>DETALLES-SABANA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\GENERALES\DETALLES-SABANA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\FrmRegJuntas.Designer.vb">
+      <DependentUpon>FrmRegJuntas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\FrmRegJuntas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\JuntsIsometric.Designer.vb">
+      <DependentUpon>JuntsIsometric.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\JuntsIsometric.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\MATERIALS\FRMMATERIALES.Designer.vb">
+      <DependentUpon>FRMMATERIALES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\MATERIALS\FRMMATERIALES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\MATERIALS\FRMREGMATS.Designer.vb">
+      <DependentUpon>FRMREGMATS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\JUNTASBYEISOMETRIC\MATERIALS\FRMREGMATS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\LIBRARY\LIBRERIA.Designer.vb">
+      <DependentUpon>LIBRERIA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\LIBRARY\LIBRERIA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\LIBRARY\libreriaCompleta.Designer.vb">
+      <DependentUpon>libreriaCompleta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\LIBRARY\libreriaCompleta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\LIBRARY\REGLIBRERIA.Designer.vb">
+      <DependentUpon>REGLIBRERIA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\LIBRARY\REGLIBRERIA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\BUSQUEDASPOOL.Designer.vb">
+      <DependentUpon>BUSQUEDASPOOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\BUSQUEDASPOOL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\FRMLOGINPINT.Designer.vb">
+      <DependentUpon>FRMLOGINPINT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\FRMLOGINPINT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\FRMREGLIBERACION.Designer.vb">
+      <DependentUpon>FRMREGLIBERACION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\FRMREGLIBERACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\FRMUSUARIOSPINT.Designer.vb">
+      <DependentUpon>FRMUSUARIOSPINT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\FRMUSUARIOSPINT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\PACKINGLIST.Designer.vb">
+      <DependentUpon>PACKINGLIST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\PACKINGLIST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\PINTURA.Designer.vb">
+      <DependentUpon>PINTURA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\PINTURA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REGPINTURA.Designer.vb">
+      <DependentUpon>REGPINTURA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REGPINTURA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REPORTFORMS\FRMLIBSPOOLREPORT.Designer.vb">
+      <DependentUpon>FRMLIBSPOOLREPORT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REPORTFORMS\FRMLIBSPOOLREPORT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REPORTFORMS\PACKINGCONDICION.Designer.vb">
+      <DependentUpon>PACKINGCONDICION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REPORTFORMS\PACKINGCONDICION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REPORTFORMS\REPORTEPACKING.Designer.vb">
+      <DependentUpon>REPORTEPACKING.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PAINTP\REPORTFORMS\REPORTEPACKING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\ACERCA.Designer.vb">
+      <DependentUpon>ACERCA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\ACERCA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCCION-DIAMETRAL\CRVMENOR2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRVMENOR2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCCION-DIAMETRAL\FRMMAYOR_A_DOS.Designer.vb">
+      <DependentUpon>FRMMAYOR_A_DOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCCION-DIAMETRAL\FRMMAYOR_A_DOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCCION-DIAMETRAL\FRMMENOR_IGUAL.Designer.vb">
+      <DependentUpon>FRMMENOR_IGUAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCCION-DIAMETRAL\FRMMENOR_IGUAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCCION-DIAMETRAL\MAYOR2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MAYOR2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\CUENTAPULGADA_S_F.Designer.vb">
+      <DependentUpon>CUENTAPULGADA_S_F.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\CUENTAPULGADA_S_F.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\DAILY\PRODUCIONDIARIA.Designer.vb">
+      <DependentUpon>PRODUCIONDIARIA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\DAILY\PRODUCIONDIARIA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\diaria.Designer.vb">
+      <DependentUpon>diaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\diaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\DAILY\REGDIARIOS.Designer.vb">
+      <DependentUpon>REGDIARIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\DAILY\REGDIARIOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMEDO_SPOOL_MTS.Designer.vb">
+      <DependentUpon>FRMEDO_SPOOL_MTS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMEDO_SPOOL_MTS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMREGMATERIALISOMETRICO.Designer.vb">
+      <DependentUpon>FRMREGMATERIALISOMETRICO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMREGMATERIALISOMETRICO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\HISTORIAL_JUNTA.Designer.vb">
+      <DependentUpon>HISTORIAL_JUNTA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\HISTORIAL_JUNTA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\HIS_JUNTA.Designer.vb">
+      <DependentUpon>HIS_JUNTA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\HIS_JUNTA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\HOJAISO.Designer.vb">
+      <DependentUpon>HOJAISO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\HOJAISO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\REGISTROS_HISTORIAL.Designer.vb">
+      <DependentUpon>REGISTROS_HISTORIAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\REGISTROS_HISTORIAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\REGSOPORTE.Designer.vb">
+      <DependentUpon>REGSOPORTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\REGSOPORTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\RPDQ.Designer.vb">
+      <DependentUpon>RPDQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\RPDQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\CLIENTS\CLIENTES.Designer.vb">
+      <DependentUpon>CLIENTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\CLIENTS\CLIENTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\CLIENTS\REGISTROSCLIENTES.Designer.vb">
+      <DependentUpon>REGISTROSCLIENTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\CLIENTS\REGISTROSCLIENTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\ENTRADA-SALIDAS.Designer.vb">
+      <DependentUpon>ENTRADA-SALIDAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\ENTRADA-SALIDAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\LoginAlmacen.Designer.vb">
+      <DependentUpon>LoginAlmacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\LoginAlmacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\REGISTROALMACEN.Designer.vb">
+      <DependentUpon>REGISTROALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\REGISTROALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\SALIDA\REGISTROSALIDALMACEN.Designer.vb">
+      <DependentUpon>REGISTROSALIDALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\SALIDA\REGISTROSALIDALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BD\CYPLUSDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CYPLUSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\ReporteEstadoSpool.Designer.vb">
+      <DependentUpon>ReporteEstadoSpool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\ReporteEstadoSpool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\TodosSpool.Designer.vb">
+      <DependentUpon>TodosSpool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\TodosSpool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\USUARIOSALMACEN.Designer.vb">
+      <DependentUpon>USUARIOSALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\WAREHOUSE\USUARIOSALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\presentacion.Designer.vb">
+      <DependentUpon>presentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\presentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\BASICDATA.Designer.vb">
+      <DependentUpon>BASICDATA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\BASICDATA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BD\CONEXION.vb" />
+    <Compile Include="VIEWS\PRINCIPAL\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMINICIOPRODUCCION.Designer.vb">
+      <DependentUpon>FRMINICIOPRODUCCION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMINICIOPRODUCCION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMPAINT.Designer.vb">
+      <DependentUpon>FRMPAINT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\FRMPAINT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\MENUPRINCIPAL.Designer.vb">
+      <DependentUpon>MENUPRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\MENUPRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\REGISTROLISTAISOMETRICO.Designer.vb">
+      <DependentUpon>REGISTROLISTAISOMETRICO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\REGISTROLISTAISOMETRICO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\USERPRODUC.Designer.vb">
+      <DependentUpon>USERPRODUC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRODUCTION\USERPRODUC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\USUARIOSPRINCIPAL.Designer.vb">
+      <DependentUpon>USUARIOSPRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWS\PRINCIPAL\USUARIOSPRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W10\FRMW10.Designer.vb">
+      <DependentUpon>FRMW10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W10\FRMW10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W10\FRMW10PORISOMETRICO.Designer.vb">
+      <DependentUpon>FRMW10PORISOMETRICO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W10\FRMW10PORISOMETRICO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W10\FRMW10PORSPOOL.Designer.vb">
+      <DependentUpon>FRMW10PORSPOOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W10\FRMW10PORSPOOL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W10\TODOW10.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TODOW10.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="W10\W10PORISO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>W10PORISO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="W10\W10PORISO1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>W10PORISO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="W10\w10PORISOO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>w10PORISOO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="W10\w10porspool.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>w10porspool.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\CAMPO\CRVW24CAMPO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRVW24CAMPO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\CAMPO\CRV_CAMPO_GERMAN.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRV_CAMPO_GERMAN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\CAMPO\CRW24PERIODOS.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRW24PERIODOS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\CAMPO\FRM_W24_GERMAN.Designer.vb">
+      <DependentUpon>FRM_W24_GERMAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\CAMPO\FRM_W24_GERMAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w24\CAMPO\W24CAMPOFECHA.Designer.vb">
+      <DependentUpon>W24CAMPOFECHA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\CAMPO\W24CAMPOFECHA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w24\CAMPO\W24PERIODOS.Designer.vb">
+      <DependentUpon>W24PERIODOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\CAMPO\W24PERIODOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w24\FRMW24.Designer.vb">
+      <DependentUpon>FRMW24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\FRMW24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w24\FRMW24XSPOOL.Designer.vb">
+      <DependentUpon>FRMW24XSPOOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\FRMW24XSPOOL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w24\rpw24xspool.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpw24xspool.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\Rw24.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rw24.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\W24-DIAMETRAL\CRVMENORDOS.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRVMENORDOS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\W24-DIAMETRAL\CRW24MAYOR2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRW24MAYOR2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="w24\W24-DIAMETRAL\FRMW24MAYORDOS.Designer.vb">
+      <DependentUpon>FRMW24MAYORDOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\W24-DIAMETRAL\FRMW24MAYORDOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="w24\W24-DIAMETRAL\FRMW24MENO2.Designer.vb">
+      <DependentUpon>FRMW24MENO2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="w24\W24-DIAMETRAL\FRMW24MENO2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ESTIMACIONES\capturaestimacion.resx">
+      <DependentUpon>capturaestimacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESTIMACIONES\FRMESTIMACIONES.resx">
+      <DependentUpon>FRMESTIMACIONES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESTIMACIONES\FRMESTIMACIONES_CYP.resx">
+      <DependentUpon>FRMESTIMACIONES_CYP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESTIMACIONES\RPESTIMACION.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPESTIMACION.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INDICE\CRVINDICE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRVINDICE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INDICE\FRMINDICE.resx">
+      <DependentUpon>FRMINDICE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PACKINLIST-PINTURA\PINTURA_PACKINGLIST.resx">
+      <DependentUpon>PINTURA_PACKINGLIST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTADA\FRMPORTADA.resx">
+      <DependentUpon>FRMPORTADA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTADA\FRMREGISTROPORTADA.resx">
+      <DependentUpon>FRMREGISTROPORTADA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTADA\FRMREPORTEPORTADA.resx">
+      <DependentUpon>FRMREPORTEPORTADA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PORTADA\RPPORTADASPOOL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPPORTADASPOOL1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QC15\QC15PACK.resx">
+      <DependentUpon>QC15PACK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QC15\QC15REP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>QC15REP.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\ENTRADAS-ALMACEN\RPALMACEN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPALMACEN.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\ENTRADAS-ALMACEN\RPENTRADAF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPENTRADAF.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXISTENCIAS-ALMACEN\FRMEXIXTENCIAS.resx">
+      <DependentUpon>FRMEXIXTENCIAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\EXISTENCIAS-ALMACEN\RPEXISTENCIAS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPEXISTENCIAS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\JUNTAS\RPJUNTAS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPJUNTAS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\PORTADA-VALE\CRV_MATERIAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRV_MATERIAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\PORTADA-VALE\CRV_VALE_REPORTE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRV_VALE_REPORTE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\PORTADA-VALE\CYPLUS-MATERIAL.resx">
+      <DependentUpon>CYPLUS-MATERIAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\PORTADA-VALE\CYPLUS-VALE.resx">
+      <DependentUpon>CYPLUS-VALE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\RPACKING.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPACKING.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\RPCONDICIONFINAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPCONDICIONFINAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\RPLIBCOND.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPLIBCOND.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PINTURA\RPPINTURA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPPINTURA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCION\estado_spool\EDO_SPOOL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EDO_SPOOL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCION\estado_spool\frmreporteEstado_spool.resx">
+      <DependentUpon>frmreporteEstado_spool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCION\RPdatos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPdatos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCION\RPESTADOSPOOL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPESTADOSPOOL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCION\RPISOMESPECIF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPISOMESPECIF.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCION\RPTIPOSPOOL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPTIPOSPOOL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCTIONDAILY\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCTIONDAILY\RPDIARIAFECHA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPDIARIAFECHA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\PRODUCCTIONDAILY\RPPRODUCCIONDIARIALINEA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPPRODUCCIONDIARIALINEA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\REPORTDAILYQUERY\frmdailycondicion.resx">
+      <DependentUpon>frmdailycondicion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\REPORTDAILYQUERY\query_por_iso.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>query_por_iso.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\REPORTDAILYQUERY\RDQSELECCION.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RDQSELECCION.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\REPORTDAILYQUERY\REPORTDAILYQUERY.resx">
+      <DependentUpon>REPORTDAILYQUERY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\REPORTDAILYQUERY\REPORTPORISOMETRICO.resx">
+      <DependentUpon>REPORTPORISOMETRICO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\REPORTDAILYQUERY\RPCONDICIONSPOOLDAILY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPCONDICIONSPOOLDAILY.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\SALIDAS-ALMACEN\RPSALIDAFECHA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPSALIDAFECHA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\SALIDAS-ALMACEN\RPSALIDASTOTAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPSALIDASTOTAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\SOPORTERIA\RPCLASESOPORTE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPCLASESOPORTE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\ENTRADAS-ALMACEN\FrmReporteEntradaMaterial.resx">
+      <DependentUpon>FrmReporteEntradaMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\ENTRADAS-ALMACEN\FRMREPORTEFECHAENTRADA.resx">
+      <DependentUpon>FRMREPORTEFECHAENTRADA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\JUNTAS\FRMREPORTJUNTAS.resx">
+      <DependentUpon>FRMREPORTJUNTAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\produclineafecha.resx">
+      <DependentUpon>produclineafecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\TODOSDIARIOS.resx">
+      <DependentUpon>TODOSDIARIOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\ISOMETRICS\FRMREPORTEESPECF.resx">
+      <DependentUpon>FRMREPORTEESPECF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\SOPORTERIA\RPSOPORTE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPSOPORTE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SOPORTERIA\SOPORTERIACLASE.resx">
+      <DependentUpon>SOPORTERIACLASE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SOPORTERIA\SOPORTERIATODOS.resx">
+      <DependentUpon>SOPORTERIATODOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\FRMTIPOSPOOL.resx">
+      <DependentUpon>FRMTIPOSPOOL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\query.resx">
+      <DependentUpon>query.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PINTURA\RPINTURA.resx">
+      <DependentUpon>RPINTURA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\SALIDAS-ALMACEN\FRMREPORTESALIDAALMACEN.resx">
+      <DependentUpon>FRMREPORTESALIDAALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\SALIDAS-ALMACEN\FRMSALIDASFECHAALMACEN.resx">
+      <DependentUpon>FRMSALIDASFECHAALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ADMINISTRATOR\BACKUP.resx">
+      <DependentUpon>BACKUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ADMINISTRATOR\CRVRF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRVRF.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ADMINISTRATOR\FRMINICIOADMIN.resx">
+      <DependentUpon>FRMINICIOADMIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ADMINISTRATOR\PANEL_CONTROL.resx">
+      <DependentUpon>PANEL_CONTROL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\CALIDADFR.resx">
+      <DependentUpon>CALIDADFR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\FRMINICIOCALID.resx">
+      <DependentUpon>FRMINICIOCALID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\REGCALIDAD.resx">
+      <DependentUpon>REGCALIDAD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\SABANA\FRMREPORTSABANA.resx">
+      <DependentUpon>FRMREPORTSABANA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\SABANA\FRMREPORTSABANAESPECIFICACION.resx">
+      <DependentUpon>FRMREPORTSABANAESPECIFICACION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\SABANA\FRMSABANACAPTURA.resx">
+      <DependentUpon>FRMSABANACAPTURA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\SABANA\RPSABANA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPSABANA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CALITY\SABANA\RPSABANAESPECIFICACION.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPSABANAESPECIFICACION.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CONSECUTIVO\FRM_CAMPO_CONSECUTIVO.resx">
+      <DependentUpon>FRM_CAMPO_CONSECUTIVO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\CONSECUTIVO\RPCONSECUTIVO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPCONSECUTIVO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\DAILYREPORTQUERY\DAILYREPORT.resx">
+      <DependentUpon>DAILYREPORT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\DAILYREPORTQUERY\RegDaily.resx">
+      <DependentUpon>RegDaily.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\DAILYREPORTQUERY\vistaConsulta.resx">
+      <DependentUpon>vistaConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ESTADO_ISO\FrmEstado_Iso.resx">
+      <DependentUpon>FrmEstado_Iso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ESTADO_ISO\FRMSTATUSISO.resx">
+      <DependentUpon>FRMSTATUSISO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\ESTADO_ISO\STATUSISO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>STATUSISO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\FRMRF.resx">
+      <DependentUpon>FRMRF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\GENERALES\CLASES.resx">
+      <DependentUpon>CLASES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\GENERALES\DETALLES-SABANA.resx">
+      <DependentUpon>DETALLES-SABANA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\JUNTASBYEISOMETRIC\FrmRegJuntas.resx">
+      <DependentUpon>FrmRegJuntas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\JUNTASBYEISOMETRIC\JuntsIsometric.resx">
+      <DependentUpon>JuntsIsometric.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\JUNTASBYEISOMETRIC\MATERIALS\FRMMATERIALES.resx">
+      <DependentUpon>FRMMATERIALES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\JUNTASBYEISOMETRIC\MATERIALS\FRMREGMATS.resx">
+      <DependentUpon>FRMREGMATS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\LIBRARY\LIBRERIA.resx">
+      <DependentUpon>LIBRERIA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\LIBRARY\libreriaCompleta.resx">
+      <DependentUpon>libreriaCompleta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\LIBRARY\REGLIBRERIA.resx">
+      <DependentUpon>REGLIBRERIA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\BUSQUEDASPOOL.resx">
+      <DependentUpon>BUSQUEDASPOOL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\FRMLOGINPINT.resx">
+      <DependentUpon>FRMLOGINPINT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\FRMREGLIBERACION.resx">
+      <DependentUpon>FRMREGLIBERACION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\FRMUSUARIOSPINT.resx">
+      <DependentUpon>FRMUSUARIOSPINT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\PACKINGLIST.resx">
+      <DependentUpon>PACKINGLIST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\PINTURA.resx">
+      <DependentUpon>PINTURA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\REGPINTURA.resx">
+      <DependentUpon>REGPINTURA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\REPORTFORMS\FRMLIBSPOOLREPORT.resx">
+      <DependentUpon>FRMLIBSPOOLREPORT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\REPORTFORMS\PACKINGCONDICION.resx">
+      <DependentUpon>PACKINGCONDICION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PAINTP\REPORTFORMS\REPORTEPACKING.resx">
+      <DependentUpon>REPORTEPACKING.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRINCIPAL\ACERCA.resx">
+      <DependentUpon>ACERCA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCCION-DIAMETRAL\CRVMENOR2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRVMENOR2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCCION-DIAMETRAL\FRMMAYOR_A_DOS.resx">
+      <DependentUpon>FRMMAYOR_A_DOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCCION-DIAMETRAL\FRMMENOR_IGUAL.resx">
+      <DependentUpon>FRMMENOR_IGUAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCCION-DIAMETRAL\MAYOR2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MAYOR2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\CUENTAPULGADA_S_F.resx">
+      <DependentUpon>CUENTAPULGADA_S_F.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\DAILY\PRODUCIONDIARIA.resx">
+      <DependentUpon>PRODUCIONDIARIA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCIOND\diaria.resx">
+      <DependentUpon>diaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\DAILY\REGDIARIOS.resx">
+      <DependentUpon>REGDIARIOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\FRMEDO_SPOOL_MTS.resx">
+      <DependentUpon>FRMEDO_SPOOL_MTS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\FRMREGMATERIALISOMETRICO.resx">
+      <DependentUpon>FRMREGMATERIALISOMETRICO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\HISTORIAL_JUNTA.resx">
+      <DependentUpon>HISTORIAL_JUNTA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\HIS_JUNTA.resx">
+      <DependentUpon>HIS_JUNTA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\HOJAISO.resx">
+      <DependentUpon>HOJAISO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\REGISTROS_HISTORIAL.resx">
+      <DependentUpon>REGISTROS_HISTORIAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\REGSOPORTE.resx">
+      <DependentUpon>REGSOPORTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\RPDQ.resx">
+      <DependentUpon>RPDQ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\CLIENTS\CLIENTES.resx">
+      <DependentUpon>CLIENTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\CLIENTS\REGISTROSCLIENTES.resx">
+      <DependentUpon>REGISTROSCLIENTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\ENTRADA-SALIDAS.resx">
+      <DependentUpon>ENTRADA-SALIDAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\LoginAlmacen.resx">
+      <DependentUpon>LoginAlmacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\REGISTROALMACEN.resx">
+      <DependentUpon>REGISTROALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\ReporteEstadoSpool.resx">
+      <DependentUpon>ReporteEstadoSpool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTS\VISTAS DE REPORTE\PRODUCCION\SPOOL\TodosSpool.resx">
+      <DependentUpon>TodosSpool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\SALIDA\REGISTROSALIDALMACEN.resx">
+      <DependentUpon>REGISTROSALIDALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\WAREHOUSE\USUARIOSALMACEN.resx">
+      <DependentUpon>USUARIOSALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRINCIPAL\presentacion.resx">
+      <DependentUpon>presentacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\BASICDATA.resx">
+      <DependentUpon>BASICDATA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRINCIPAL\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\FRMINICIOPRODUCCION.resx">
+      <DependentUpon>FRMINICIOPRODUCCION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\FRMPAINT.resx">
+      <DependentUpon>FRMPAINT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRINCIPAL\MENUPRINCIPAL.resx">
+      <DependentUpon>MENUPRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\REGISTROLISTAISOMETRICO.resx">
+      <DependentUpon>REGISTROLISTAISOMETRICO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRODUCTION\USERPRODUC.resx">
+      <DependentUpon>USERPRODUC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\PRINCIPAL\USUARIOSPRINCIPAL.resx">
+      <DependentUpon>USUARIOSPRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\FRMW10.resx">
+      <DependentUpon>FRMW10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\FRMW10PORISOMETRICO.resx">
+      <DependentUpon>FRMW10PORISOMETRICO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\FRMW10PORSPOOL.resx">
+      <DependentUpon>FRMW10PORSPOOL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\TODOW10.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TODOW10.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\W10PORISO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>W10PORISO1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\w10PORISOO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>w10PORISOO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W10\w10porspool.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>w10porspool.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\CAMPO\CRVW24CAMPO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRVW24CAMPO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\CAMPO\CRV_CAMPO_GERMAN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRV_CAMPO_GERMAN.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\CAMPO\CRW24PERIODOS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRW24PERIODOS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\CAMPO\FRM_W24_GERMAN.resx">
+      <DependentUpon>FRM_W24_GERMAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\CAMPO\W24CAMPOFECHA.resx">
+      <DependentUpon>W24CAMPOFECHA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\CAMPO\W24PERIODOS.resx">
+      <DependentUpon>W24PERIODOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\FRMW24.resx">
+      <DependentUpon>FRMW24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\FRMW24XSPOOL.resx">
+      <DependentUpon>FRMW24XSPOOL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\rpw24xspool.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpw24xspool.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\Rw24.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rw24.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\W24-DIAMETRAL\CRVMENORDOS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRVMENORDOS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\W24-DIAMETRAL\CRW24MAYOR2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRW24MAYOR2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\W24-DIAMETRAL\FRMW24MAYORDOS.resx">
+      <DependentUpon>FRMW24MAYORDOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="w24\W24-DIAMETRAL\FRMW24MENO2.resx">
+      <DependentUpon>FRMW24MENO2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD\app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD\CYPLUSDataSet.xsc">
+      <DependentUpon>CYPLUSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD\CYPLUSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CYPLUSDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD\CYPLUSDataSet.xss">
+      <DependentUpon>CYPLUSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CYPLUS_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Windows Icons\.DS_Store" />
+    <None Include="SKIN\DiamondBlue.ssk" />
+    <None Include="SKIN\RealOne.ssk" />
+    <None Include="SKIN\Silver.ssk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shut_Down[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\termotecnica_coindustrial-e1422461794791.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.DotNetBar.Keyboard">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.DotNetBar.Schedule">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.DotNetBar.SuperGrid">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.DotNetBar2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.Instrumentation">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevComponents.TreeGX">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="IrisSkin2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ISOME.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="descarga.ico" />
+    <None Include="Resources\Error.png" />
+    <None Include="Resources\Magnifying Glass.png" />
+    <None Include="Resources\Newspaper.png" />
+    <None Include="Resources\Users.png" />
+    <None Include="Resources\Bookshelf.png" />
+    <None Include="Resources\Excel 2013.ico" />
+    <None Include="Resources\images %282%29.jpg" />
+    <None Include="Resources\Lupa-de-calidad.jpg" />
+    <None Include="Resources\images87P8MKC9.jpg" />
+    <Content Include="Resources\Windows Icons\Address Book.ico" />
+    <Content Include="Resources\Windows Icons\Aero Window » Explorer.ico" />
+    <Content Include="Resources\Windows Icons\Aero Window » List.ico" />
+    <Content Include="Resources\Windows Icons\Alert.ico" />
+    <Content Include="Resources\Windows Icons\Applications.ico" />
+    <Content Include="Resources\Windows Icons\Battery Display » Charging.ico" />
+    <Content Include="Resources\Windows Icons\Battery Display » Full.ico" />
+    <Content Include="Resources\Windows Icons\Battery Display » Low.ico" />
+    <Content Include="Resources\Windows Icons\Battery Display.ico" />
+    <Content Include="Resources\Windows Icons\Battery.ico" />
+    <Content Include="Resources\Windows Icons\Bell.ico" />
+    <Content Include="Resources\Windows Icons\Book » Bookmark.ico" />
+    <Content Include="Resources\Windows Icons\Book.ico" />
+    <Content Include="Resources\Windows Icons\Bookshelf » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Bookshelf.ico" />
+    <Content Include="Resources\Windows Icons\Box » This Side Up.ico" />
+    <Content Include="Resources\Windows Icons\Box.ico" />
+    <Content Include="Resources\Windows Icons\Burn.ico" />
+    <Content Include="Resources\Windows Icons\Calendar » Blue.ico" />
+    <Content Include="Resources\Windows Icons\Calendar » Day View.ico" />
+    <Content Include="Resources\Windows Icons\Calendar » Month View.ico" />
+    <Content Include="Resources\Windows Icons\Camera.ico" />
+    <Content Include="Resources\Windows Icons\CD » Burn.ico" />
+    <Content Include="Resources\Windows Icons\CD.ico" />
+    <Content Include="Resources\Windows Icons\Chalkboard » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Chalkboard.ico" />
+    <Content Include="Resources\Windows Icons\Chest of Drawers » Open » Files.ico" />
+    <Content Include="Resources\Windows Icons\Chest of Drawers » Open.ico" />
+    <Content Include="Resources\Windows Icons\Chest of Drawers.ico" />
+    <Content Include="Resources\Windows Icons\Chip.ico" />
+    <Content Include="Resources\Windows Icons\Christmas Tree » Lit.ico" />
+    <Content Include="Resources\Windows Icons\Christmas Tree » Undecorated.ico" />
+    <Content Include="Resources\Windows Icons\Christmas Tree.ico" />
+    <Content Include="Resources\Windows Icons\Clapperboard » Blank.ico" />
+    <Content Include="Resources\Windows Icons\Clapperboard » Closed.ico" />
+    <Content Include="Resources\Windows Icons\Clapperboard » Picture.ico" />
+    <Content Include="Resources\Windows Icons\Clapperboard.ico" />
+    <Content Include="Resources\Windows Icons\Clipboard » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Clipboard » Fold.ico" />
+    <Content Include="Resources\Windows Icons\Clipboard » Text.ico" />
+    <Content Include="Resources\Windows Icons\Clipboard » Torn.ico" />
+    <Content Include="Resources\Windows Icons\Clipboard.ico" />
+    <Content Include="Resources\Windows Icons\Color Wheel.ico" />
+    <Content Include="Resources\Windows Icons\Contact Card.ico" />
+    <Content Include="Resources\Windows Icons\Curtains.ico" />
+    <Content Include="Resources\Windows Icons\Dashboard.ico" />
+    <Content Include="Resources\Windows Icons\Decoration » Branch.ico" />
+    <Content Include="Resources\Windows Icons\Decoration.ico" />
+    <Content Include="Resources\Windows Icons\Delete.ico" />
+    <Content Include="Resources\Windows Icons\Design » Blueprint.ico" />
+    <Content Include="Resources\Windows Icons\Design.ico" />
+    <Content Include="Resources\Windows Icons\Desktop.ico" />
+    <Content Include="Resources\Windows Icons\Dictionary.ico" />
+    <Content Include="Resources\Windows Icons\Digsby.ico" />
+    <Content Include="Resources\Windows Icons\Disk » Hard Disk.ico" />
+    <Content Include="Resources\Windows Icons\Disk » iDisk.ico" />
+    <Content Include="Resources\Windows Icons\Disk » Removable.ico" />
+    <Content Include="Resources\Windows Icons\Disk » Time Machine.ico" />
+    <Content Include="Resources\Windows Icons\Door » Chat Room.ico" />
+    <Content Include="Resources\Windows Icons\Door.ico" />
+    <Content Include="Resources\Windows Icons\Download » High Speed.ico" />
+    <Content Include="Resources\Windows Icons\Download » Turbo Speed.ico" />
+    <Content Include="Resources\Windows Icons\Download.ico" />
+    <Content Include="Resources\Windows Icons\E-Mail.ico" />
+    <Content Include="Resources\Windows Icons\Emoticon » Sleep.ico" />
+    <Content Include="Resources\Windows Icons\Emoticon.ico" />
+    <Content Include="Resources\Windows Icons\Envelope » Airmail.ico" />
+    <Content Include="Resources\Windows Icons\Envelope.ico" />
+    <Content Include="Resources\Windows Icons\Error.ico" />
+    <Content Include="Resources\Windows Icons\Face Book.ico" />
+    <Content Include="Resources\Windows Icons\File.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » Blueprint » Under Construction.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » Blueprint.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » RSS » Orange.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » RSS.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » Script.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » Under Construction.ico" />
+    <Content Include="Resources\Windows Icons\Filetype » Video.ico" />
+    <Content Include="Resources\Windows Icons\Filetype.ico" />
+    <Content Include="Resources\Windows Icons\Film Roll.ico" />
+    <Content Include="Resources\Windows Icons\Filmstrip.ico" />
+    <Content Include="Resources\Windows Icons\Folder » Blue.ico" />
+    <Content Include="Resources\Windows Icons\Folder » Classic » Blue.ico" />
+    <Content Include="Resources\Windows Icons\Folder » Classic » Recycled.ico" />
+    <Content Include="Resources\Windows Icons\Folder » Classic » Yellow.ico" />
+    <Content Include="Resources\Windows Icons\Folder » Recycled.ico" />
+    <Content Include="Resources\Windows Icons\Folder » Yellow.ico" />
+    <Content Include="Resources\Windows Icons\Gear.ico" />
+    <Content Include="Resources\Windows Icons\Get-Info.ico" />
+    <Content Include="Resources\Windows Icons\Gift Box » Blue.ico" />
+    <Content Include="Resources\Windows Icons\Gift Box.ico" />
+    <Content Include="Resources\Windows Icons\Glass » Cola » Ice.ico" />
+    <Content Include="Resources\Windows Icons\Glass » Cola.ico" />
+    <Content Include="Resources\Windows Icons\Glass » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Glass » Water » Ice.ico" />
+    <Content Include="Resources\Windows Icons\Glass » Water.ico" />
+    <Content Include="Resources\Windows Icons\Hard Disk » Installation.ico" />
+    <Content Include="Resources\Windows Icons\House.ico" />
+    <Content Include="Resources\Windows Icons\iCal.ico" />
+    <Content Include="Resources\Windows Icons\Inkwell.ico" />
+    <Content Include="Resources\Windows Icons\Instant Messaging.ico" />
+    <Content Include="Resources\Windows Icons\iPhone » Application.ico" />
+    <Content Include="Resources\Windows Icons\iPhone » Locked.ico" />
+    <Content Include="Resources\Windows Icons\iPhone.ico" />
+    <Content Include="Resources\Windows Icons\iSight.ico" />
+    <Content Include="Resources\Windows Icons\Jewel Case » CD.ico" />
+    <Content Include="Resources\Windows Icons\Jewel Case » Cover.ico" />
+    <Content Include="Resources\Windows Icons\Jewel Case » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Key » Command.ico" />
+    <Content Include="Resources\Windows Icons\Key » Windows.ico" />
+    <Content Include="Resources\Windows Icons\Library.ico" />
+    <Content Include="Resources\Windows Icons\Lock » Unlocked.ico" />
+    <Content Include="Resources\Windows Icons\Lock.ico" />
+    <Content Include="Resources\Windows Icons\Magnifying Glass.ico" />
+    <Content Include="Resources\Windows Icons\Microphone » Classic.ico" />
+    <Content Include="Resources\Windows Icons\Microphone.ico" />
+    <Content Include="Resources\Windows Icons\Money » Glowing.ico" />
+    <Content Include="Resources\Windows Icons\Money.ico" />
+    <Content Include="Resources\Windows Icons\Monitor » Film.ico" />
+    <Content Include="Resources\Windows Icons\Monitor » Music Video.ico" />
+    <Content Include="Resources\Windows Icons\Monitor » Wallpaper.ico" />
+    <Content Include="Resources\Windows Icons\Monitor.ico" />
+    <Content Include="Resources\Windows Icons\Mug » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Mug.ico" />
+    <Content Include="Resources\Windows Icons\Musical Note.ico" />
+    <Content Include="Resources\Windows Icons\Newspaper » RSS.ico" />
+    <Content Include="Resources\Windows Icons\Newspaper.ico" />
+    <Content Include="Resources\Windows Icons\Newsreader.ico" />
+    <Content Include="Resources\Windows Icons\Note » White.ico" />
+    <Content Include="Resources\Windows Icons\Note » Yellow.ico" />
+    <Content Include="Resources\Windows Icons\Notification.ico" />
+    <Content Include="Resources\Windows Icons\OS » Mac OS X.ico" />
+    <Content Include="Resources\Windows Icons\OS » Windows 7.ico" />
+    <Content Include="Resources\Windows Icons\OS » Windows Vista.ico" />
+    <Content Include="Resources\Windows Icons\Panel » Colors.ico" />
+    <Content Include="Resources\Windows Icons\Panel » Find.ico" />
+    <Content Include="Resources\Windows Icons\Panel » Inspector.ico" />
+    <Content Include="Resources\Windows Icons\Panel.ico" />
+    <Content Include="Resources\Windows Icons\Pen.ico" />
+    <Content Include="Resources\Windows Icons\Pencil and Ruler.ico" />
+    <Content Include="Resources\Windows Icons\Pencil.ico" />
+    <Content Include="Resources\Windows Icons\Photo » Polaroid.ico" />
+    <Content Include="Resources\Windows Icons\Photo.ico" />
+    <Content Include="Resources\Windows Icons\Pie Chart.ico" />
+    <Content Include="Resources\Windows Icons\Pin.ico" />
+    <Content Include="Resources\Windows Icons\Plant.ico" />
+    <Content Include="Resources\Windows Icons\Preferences Panel.ico" />
+    <Content Include="Resources\Windows Icons\Presentation.ico" />
+    <Content Include="Resources\Windows Icons\Project » Blueprints.ico" />
+    <Content Include="Resources\Windows Icons\Project.ico" />
+    <Content Include="Resources\Windows Icons\RAM.ico" />
+    <Content Include="Resources\Windows Icons\Reception Bell » Gold.png" />
+    <Content Include="Resources\Windows Icons\Reception Bell.ico" />
+    <Content Include="Resources\Windows Icons\RSS.ico" />
+    <Content Include="Resources\Windows Icons\Ruler.ico" />
+    <Content Include="Resources\Windows Icons\Safari.ico" />
+    <Content Include="Resources\Windows Icons\Safe » Dark.ico" />
+    <Content Include="Resources\Windows Icons\Safe » Open » Money.ico" />
+    <Content Include="Resources\Windows Icons\Safe » Open.ico" />
+    <Content Include="Resources\Windows Icons\Safe.ico" />
+    <Content Include="Resources\Windows Icons\School Bell.ico" />
+    <Content Include="Resources\Windows Icons\Shield » Swords.ico" />
+    <Content Include="Resources\Windows Icons\Shield.ico" />
+    <Content Include="Resources\Windows Icons\Shopping Bag » Black.ico" />
+    <Content Include="Resources\Windows Icons\Shopping Bag » Paperboard.ico" />
+    <Content Include="Resources\Windows Icons\Shopping Bag » Price Tag.ico" />
+    <Content Include="Resources\Windows Icons\Shopping Bag.ico" />
+    <Content Include="Resources\Windows Icons\Sign Post » Alternate.ico" />
+    <Content Include="Resources\Windows Icons\Sign Post.ico" />
+    <Content Include="Resources\Windows Icons\Slide Show.ico" />
+    <Content Include="Resources\Windows Icons\Spinning Beach Ball.ico" />
+    <Content Include="Resources\Windows Icons\Status.ico" />
+    <Content Include="Resources\Windows Icons\Stoplight.ico" />
+    <Content Include="Resources\Windows Icons\Stopwatch » Off.ico" />
+    <Content Include="Resources\Windows Icons\Stopwatch » On.ico" />
+    <Content Include="Resources\Windows Icons\Suit.ico" />
+    <Content Include="Resources\Windows Icons\Time » Machine.ico" />
+    <Content Include="Resources\Windows Icons\Top Hat » Magic Wand.ico" />
+    <Content Include="Resources\Windows Icons\Top Hat » Magic.ico" />
+    <Content Include="Resources\Windows Icons\Top Hat » Wand.ico" />
+    <Content Include="Resources\Windows Icons\Top Hat.ico" />
+    <Content Include="Resources\Windows Icons\Traffic » Link.ico" />
+    <Content Include="Resources\Windows Icons\Traffic » No Entry.ico" />
+    <Content Include="Resources\Windows Icons\Traffic » Stop.ico" />
+    <Content Include="Resources\Windows Icons\Traffic » Warning.ico" />
+    <Content Include="Resources\Windows Icons\Traffic » Yield.ico" />
+    <Content Include="Resources\Windows Icons\Trash » Empty.ico" />
+    <Content Include="Resources\Windows Icons\Trash » Full.ico" />
+    <Content Include="Resources\Windows Icons\Trash.ico" />
+    <Content Include="Resources\Windows Icons\Trees.ico" />
+    <Content Include="Resources\Windows Icons\Twitter » Mention.ico" />
+    <Content Include="Resources\Windows Icons\Twitter » Retweet.ico" />
+    <Content Include="Resources\Windows Icons\Twitter.ico" />
+    <Content Include="Resources\Windows Icons\UI » Appearance.ico" />
+    <Content Include="Resources\Windows Icons\UI » Debug.ico" />
+    <Content Include="Resources\Windows Icons\UI » Drawer.ico" />
+    <Content Include="Resources\Windows Icons\UI » Finder.ico" />
+    <Content Include="Resources\Windows Icons\UI » Inspector.ico" />
+    <Content Include="Resources\Windows Icons\UI » List Window.ico" />
+    <Content Include="Resources\Windows Icons\UI » Movie Window.ico" />
+    <Content Include="Resources\Windows Icons\UI » Movie.ico" />
+    <Content Include="Resources\Windows Icons\UI » Rulers.ico" />
+    <Content Include="Resources\Windows Icons\UI » Sidebar.ico" />
+    <Content Include="Resources\Windows Icons\UI » Text.ico" />
+    <Content Include="Resources\Windows Icons\UI » Window.ico" />
+    <Content Include="Resources\Windows Icons\User.ico" />
+    <Content Include="Resources\Windows Icons\Users.ico" />
+    <Content Include="Resources\Windows Icons\Wall Clock » Past.ico" />
+    <Content Include="Resources\Windows Icons\Wall Clock » Time Machine.ico" />
+    <Content Include="Resources\Windows Icons\Wall Clock.ico" />
+    <Content Include="Resources\Windows Icons\Wallet » Money.ico" />
+    <Content Include="Resources\Windows Icons\Wallet.ico" />
+    <Content Include="Resources\Windows Icons\Wand » Magic.ico" />
+    <Content Include="Resources\Windows Icons\Wand.ico" />
+    <Content Include="Resources\Windows Icons\Website » Alias.ico" />
+    <Content Include="Resources\Windows Icons\Website » Download.ico" />
+    <Content Include="Resources\Windows Icons\Website » Link.ico" />
+    <Content Include="Resources\Windows Icons\Website.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="SAP.CrystalReports14.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>SAP Crystal Reports Runtime Engine for .NET Framework 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
